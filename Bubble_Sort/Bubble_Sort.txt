@@ -1,0 +1,50 @@
+3. Bubble Sort
+Bubble Sort is the sorting algorithm that works by repeatedly swapping
+the adjacent elements if they are in the wrong order. After each iteration
+or pass, the largest element reaches the end (in case of ascending order)
+//or the smallest element reaches the end in " case of descending order ".
+// The pass through the list is repeated until the list is sorted. 
+This algorithm is not suitable for large data sets as its average 
+and worst-case complexity are of Ο(n^2) where n is the number of items
+
+Example:
+64 34 25 12 22 11 90
+Iteration 1:
+(64 34 25 12 22 11 90) -> (34 64 25 12 22 11 90),
+ Here algorithm  compares the first two elements, and swaps since 64 > 34
+(34 64 25 12 22 11 90) -> (34 25 64 12 22 11 90), Swap since 64 > 25
+(34 25 64 12 22 11 90) -> (34 25 12 64 22 11 90), Swap since 64 > 12
+(34 25 12 64 22 11 90) -> (34 25 12 22 64 11 90), Swap since 64 > 22
+(34 25 12 22 64 11 90) -> (34 25 12 22 11 64 90), Swap since 64 > 11
+(34 25 12 22 11 64 90) -> (34 25 12 22 11 64 90), Now, since these elements are already in order (90 > 64), 
+//algorithm does not swap them.
+Iteration 2:
+(34 25 12 22 11 64 90) -> (25 34 12 22 11 64 90), Swap since 34 > 25
+(25 34 12 22 11 64 90) -> (25 12 34 22 11 64 90), Swap since 34 > 12
+(25 12 34 22 11 64 90) -> (25 12 22 34 11 64 90), Swap since 34 > 22
+(25 12 22 34 11 64 90) -> (25 12 22 11 34 64 90), Swap since 34 > 11
+(25 12 22 11 34 64 90) -> (25 12 22 11 34 64 90), Now, since these elements are already in order (64 > 34),
+// algorithm does not swap them.
+Iteration 3:
+(25 12 22 11 34 64 90) -> (12 25 22 11 34 64 90), Swap since 25 > 12
+(12 25 22 11 34 64 90) -> (12 22 25 11 34 64 90), Swap since 25 > 22
+(12 22 25 11 34 64 90) -> (12 22 11 25 34 64 90), Swap since 25 > 11
+(12 22 11 25 34 64 90) -> (12 22 11 25 34 64 90), Now, since these elements are already in order (34 > 25), 
+// algorithm does not swap them.
+Iteration 4:
+(12 22 11 25 34 64 90) -> (12 22 11 25 34 64 90)
+(12 22 11 25 34 64 90) -> (12 11 22 25 34 64 90), Swap since 22 > 11
+(12 11 22 25 34 64 90) -> (12 11 22 25 34 64 90)
+Iteration 5:
+(12 11 22 25 34 64 90) -> (11 12 22 25 34 64 90), Swap since 12 > 11
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+Iteration 6:
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any swap to know it is sorted.
+Iteration 7:
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)
+(11 12 22 25 34 64 90) -> (11 12 22 25 34 64 90)

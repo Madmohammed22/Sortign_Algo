@@ -1,0 +1,71 @@
+1. Insertion Sort
+
+Insertion sort is a simple sorting algorithm that works similarly
+
+// to the way you sort playing cards in your hands. The array is virtually split
+
+into a sorted and an unsorted part. Values from the unsorted part are picked and 
+ placed at the correct position in the sorted part.
+ Insertion sort is fast and best.
+
+suitable either when the problem size is small (because it has low overhead) or when
+
+the data is nearly sorted (because it is adaptive).
+
+//--------------------------------------------
+
+
+Learn how to implement insertion sort in C to sort an array of elements, regardless of their data type. Includes code example.
+
+[00:00](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=0) Learn how to implement insertion sort in C
+
+[00:43](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=43) Sorting a list by continually shifting elements
+
+[01:23](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=83) Implementing insertion sort algorithm in C
+
+[02:08](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=128) Sorting algorithm using two loops
+
+[02:51](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=171) Sorting algorithm with shifting
+
+[03:35](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=215) Insertion sort algorithm explained
+
+[04:27](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=267) Insertion sort algorithm explained
+
+[05:09](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=309) Implementation of insertion sort in C
+
+---------------------------------
+
+Detailed Summary for [Insertion Sort | C Programming Example](https://www.youtube.com/watch?v=Tz7vBodZqo8) by [Merlin](https://merlin.foyer.work/)
+
+[00:00](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=0) Learn how to implement insertion sort in C
+- Insertion sort is an algorithm to sort an array of elements
+- The algorithm works by continually looking at the next element in the right-hand side of the list
+
+[00:43](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=43) Sorting a list by continually shifting elements
+- Elements are shifted until they are in the right position on the left side of the list
+- Continuously inserting the right element into the right position in the list
+
+[01:23](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=83) Implementing insertion sort algorithm in C
+- Create an array of 8 elements
+ - Write a function to accept array and its length as arguments
+
+[02:08](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=128) Sorting algorithm using two loops
+- Outer loop looks at each element in the array one at a time
+- Inner loop shifts the element over to the right position in the left-hand portion of the array
+
+[02:51](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=171) Sorting algorithm with shifting
+- The algorithm shifts elements to place them in the correct position
+- It uses nested loops to compare and shift elements
+
+[03:35](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=215) Insertion sort algorithm explained
+- Compares each element with the key and shifts elements to make space for the key
+- Continues until the key is placed in its correct position
+
+[04:27](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=267) Insertion sort algorithm explained
+- Insertion sort is a simple sorting algorithm that works the way we sort playing cards in our hands.
+- The algorithm iterates through the array and compares each element with the previous ones to find the correct position for the element.
+
+[05:09](https://www.youtube.com/watch?v=Tz7vBodZqo8&t=309) Implementation of insertion sort in C
+- Code uses a loop to print elements of the array in a formatted way
+- Portfolio courses available to help build impressive C programming projects
+

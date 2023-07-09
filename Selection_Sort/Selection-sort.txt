@@ -1,0 +1,15 @@
+2. Selection Sort
+
+The selection sort algorithm is a way of organizing a list of items.
+ It works by repeatedly finding the smallest item in the unorganized
+  part of the list and moving it to the beginning. The algorithm divides
+   the list into two parts:
+
+1. The part that is already sorted.
+2. The part that is still unsorted.
+
+In each iteration or round of selection sort,
+we find the smallest item from the unsorted part of the list and place it in the sorted part.
+This process continues until the entire list is sorted. 
+One advantage of selection sort is that it minimizes the number of swaps needed to sort the list.
+This makes it a good choice when swapping items is expensive or time-consuming.
