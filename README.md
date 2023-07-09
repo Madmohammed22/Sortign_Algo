@@ -1,1 +1,1 @@
-# Sortign_Algo
+# sorting algorithms
